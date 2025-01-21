@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
           project: owlane04/cicd
-          stage: main
+          stage: master
           yaml: |
             name: # 프로젝트 이름 ex) `cicd`
             app: java@17
